@@ -56,7 +56,7 @@ Based on the data available, the recommendations are as follows:
 
 
 ## Challenge
-The analysis conducted up to this point has had a broader focus. For this challenge, data will be used to make specific recommendations for running successful Kickstarter campaign to fund a **play** in the US.
+The analysis conducted up to this point has had a broader focus. For this challenge, data was used to make specific recommendations for running successful Kickstarter campaign to fund a **play** in the US.
 
 The two questions that have informed this analysis are:
 1. What should the fundraising goal be?
@@ -112,7 +112,7 @@ Taking into consideration only those campaigns which had goals up to $9,999, it 
 
 As noted above, the answer to the question about how long a campaign should run is not answered adequately by looking only at launch date. Campaign duration without taking into account launch date does not render a visualization upon which to draw meaningful conclusions.
 
-##### Recommendations
+#### Recommendations
 Based on the observations and limitations described above, the recommended amount for the campaign goal to fund a play would be $4,999 or less.
 
 To strive to make a better recommendation, perhaps it might be more useful to include all theater campaigns (as opposed to just plays) in this type of analysis so that more meaningful conclusions could be drawn on a larger dataset.
