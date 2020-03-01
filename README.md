@@ -83,20 +83,6 @@ The following table summarizes the number and percentage of plays that were succ
 Here is a visual representation of the same information:
 ![](Outcomes-Based-on-Goals.png)
 
-#### Interpretation
-If we were to only consider the visual representation for goal, then it would seem that goal is not a good indicator of chances for success.
-
-However, considering that the overall range for goal amount is broad in this dataset, approximately 85% of the data resides within the first 3 goal ranges (i.e. Less than $1,000 to $9,999). Based on this, it would be inappropriate to draw conclusions based on the entire dataset.
-
-Taking into consideration only those campaigns which had goals up to $9,999, it seems the likelihood of a campaign to fund a play successfully decreases as goal amount increases. This is observed more dramatically when moving from a goal of $1,000 to $4,999 to a goal of $5,000 to $9,999 by comparison with moving from a goal of Less than $1,000 to a goal of $1,000 to $4,999..
-
-Based on this, the recommended amount for the campaign goal to fund a play would be $4,999 or less.
-
-Perhaps it might be more useful to include all theater campaigns (as opposed to just plays) in this type of analysis so that more meaningful conclusions could be drawn on a larger dataset.
-
-Additionally, a box plot of this data would be very useful in quickly showing the spread of this data visually.
-
-
 ### Analysis for Kickstarter plays based on timing
 In an attempt to make recommendations for when to launch a campaign, 2 factors seemed relevant:
 1. Campaign Launch Date
@@ -108,7 +94,6 @@ These two factors are both important since length of campaign cannot be determin
 The following chart shows outcomes of theater campaigns based on launch date.
 ![](Outcomes-Based-on-Launch-Date.png)
 
-This data indicates that the best time to launch a campaign would be in May / June.
 
 ##### Campaign Duration
 The following chart shows outcomes of theater campaigns based on campaign duration.
@@ -118,8 +103,23 @@ This particular visualization hints that the dataset may have many points in the
 
 While this measure, on the surface seemed to be a good idea, the outcome does not seem to be affected by campaign duration on its own.
 
-#### Interpretation
-Launching a campaign in May/June looks to be a sound recommendation for increasing the chances for a successful campaign. Campaign duration without taking into account launch date does not render a visualization upon which to draw meaningful conclusions.
+#### Observations and Limitations
+If we were to only consider the visual representation for goal, then it would seem that goal is not a good indicator of chances for success.
+
+However, considering that the overall spread for goal amount is broad in this dataset, approximately 85% of the data resides within the first 3 goal ranges (i.e. Less than $1,000 to $9,999). Based on this, it would seem inappropriate to draw conclusions based on the entire dataset.
+
+Taking into consideration only those campaigns which had goals up to $9,999, it seems the likelihood of a campaign to fund a play successfully decreases as goal amount increases. This is observed more profoundly when moving from a goal of **$1,000 to $4,999** to a goal of **$5,000 to $9,999** by comparison with moving from a goal of Less than $1,000 to a goal of **$1,000 to $4,999**.
+
+As noted above, the answer to the question about how long a campaign should run is not answered adequately by looking only at launch date. Campaign duration without taking into account launch date does not render a visualization upon which to draw meaningful conclusions.
+
+##### Recommendations
+Based on the observations and limitations described above, the recommended amount for the campaign goal to fund a play would be $4,999 or less.
+
+To strive to make a better recommendation, perhaps it might be more useful to include all theater campaigns (as opposed to just plays) in this type of analysis so that more meaningful conclusions could be drawn on a larger dataset.
+
+Additionally, a box plot of this data would be very useful in quickly showing the spread of this data visually.
+
+With regard to the timing for the campaign, data indicates that the best time to launch for increased chances of a successful a campaign would be in May / June.
 
 It is recommended that further analysis should take place to determine how long a campaign should run. Specifically, it would be interesting to look at duration and start date together. For example, running this analysis by looking at outcomes based on duration while filtering on start date (month).
 
