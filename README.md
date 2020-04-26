@@ -47,7 +47,7 @@ A quick glance shows that in this very small sample, in which there are 2 outlie
 
 Though the mean goal was £4,000, it is skewed by the outlier for goal. This is considerably outside the range of outliers for amount pledged, so the mean goal would not serve as a good data point upon which to base recommendations.
 
-Based on the median, it is clear that half the campaigns had goals of £2,000 or less. Thi salso happens to be a bit over the 3rd quartile for amounts pledged.
+Based on the median, it is clear that half the campaigns had goals of £2,000 or less. This also happens to be a bit over the 3rd quartile for amounts pledged.
 
 #### High-Level Recommendations for Kickstarter Theater Campaigns
 Based on the data available, the recommendations are as follows:
